@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-	int(intType)
-	char(charType)
-	long(longType)
-	long long(longlongType)
-	float(floatType)
+	int(intType);
+	char(charType);
+	long(longType);
+	long long(longlongType);
+	float(floatType);
 
 	printf("Size of a char: %lu bytes\n", sizeof(intType));
 	printf("Size of an int: %lu bytes\n", sizeof(charType));
