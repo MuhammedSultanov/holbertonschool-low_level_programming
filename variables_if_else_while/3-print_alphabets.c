@@ -9,8 +9,8 @@
  */
 int main(void)
 {char x, y;
-for (x = 'a'; x <= 'z'; x++)
-for (x = 'A'; y <= 'Z'; y++)
+	`for (x = 'a'; x <= 'z'; x++)
+	for (x = 'A'; y <= 'Z'; y++)
 	putchar(x);
 	putchar(y);
 putchar('$');
