@@ -10,6 +10,8 @@ int main(void)
 int y;
 int z;
 int k;
+int u;
+int t;
 for (x = '0'; x <= '9'; x++)
 {
 for (y = '0' ; y <= '9'; y++)
@@ -22,12 +24,16 @@ if (!(x == '0' && y == '0' && z == '0' && k == '0'))
 {
 if (!(x == '0' && y == '1' && z == '0' && k == '0') && !(x == '0' && y == '1' && z == '0' && k == '1'))
 {
+u=10*x + y ;
+t=10*z + k ;
+if (!(u == t))
+{
 putchar(x);
 putchar(y);
 putchar(' ');
 putchar(z);
 putchar(k);
 {putchar(',');
-putchar(' '); }}}}}}}
+putchar(' '); }}}}}}}}
 putchar('\n');
 return (0); }
