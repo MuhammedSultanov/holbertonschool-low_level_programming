@@ -23,9 +23,7 @@ putchar(y);
 putchar(' ');
 putchar(z);
 putchar(k);
-if (x != '6' || y != '7' || z != '8' || k != '9')
-{
 putchar(',');
-putchar(' '); }}}}}
+putchar(' '); }}}}
 putchar('\n');
 return (0); }
