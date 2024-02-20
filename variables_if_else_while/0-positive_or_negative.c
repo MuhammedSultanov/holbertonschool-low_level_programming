@@ -7,7 +7,7 @@
  * Description: 'this code for print text on screen'
  *
  * Return: Always 0 (Success)
- */ 
+ */
 int main(void)
 {
 	int n;
