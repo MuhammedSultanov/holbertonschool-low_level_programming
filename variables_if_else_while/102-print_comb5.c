@@ -18,10 +18,10 @@ for (z = '0'; z <= '9'; z++)
 {
 for (k = '0'; k <= '9'; k++)
 {
-putchar(x);
-putchar(y);
 if (!(x == '0' && y == '0' && z == '0' && k == '0'))
 {
+putchar(x);
+putchar(y);
 putchar(' ');
 putchar(z);
 putchar(k);
