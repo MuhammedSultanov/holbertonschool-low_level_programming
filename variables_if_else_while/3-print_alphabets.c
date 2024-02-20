@@ -13,6 +13,6 @@ int main(void)
 	for (x = 'A'; y <= 'Z'; y++)
 	putchar(x);
 	putchar(y);
-putchar('$');
+putchar('\n');
 
 return (0); }
