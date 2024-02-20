@@ -23,9 +23,11 @@ if (!(x == '0' && y == '0' && z == '0' && k == '0'))
 putchar(x);
 putchar(y);
 putchar(' ');
+if (!(z == '0' && k == '1'))
+{
 putchar(z);
 putchar(k);
 {putchar(',');
-putchar(' '); }}}}}}
+putchar(' '); }}}}}}}
 putchar('\n');
 return (0); }
