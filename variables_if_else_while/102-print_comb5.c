@@ -28,6 +28,6 @@ putchar(' ');
 putchar(z);
 putchar(k);
 {putchar(',');
-putchar(' '); }}}}}}}}
+putchar(' '); }}}}}}}
 putchar('\n');
 return (0); }
