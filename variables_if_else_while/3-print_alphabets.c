@@ -14,6 +14,5 @@ int main(void)
 	putchar(x);
 	putchar(y);
 putchar('$');
-putchar('\n');
 
 return (0); }
