@@ -8,10 +8,10 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{char x = 'a';
+{char x;
 for (x = 'a'; x <= 'z'; x++)
 {putchar(x); }
-char y = 'A';
+char y;
 for (x = 'A'; y <= 'Z'; y++)
 {putchar(y); }
 putchar('\n');
