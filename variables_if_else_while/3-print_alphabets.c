@@ -8,7 +8,9 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{char x = 'a';
+{char x;
+char y;
+char x = 'a';
 for (x = 'a'; x <= 'z'; x++)
 char y = 'A';
 for (x = 'A'; y <= 'Z'; y++)
