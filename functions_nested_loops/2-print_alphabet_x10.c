@@ -15,6 +15,6 @@ void print_alphabet_x10(void)
 		_putchar(a[i]);
 		i++;
 	}
-	for ( a = 1; 1 >= 10; i++)
-	{ _putchar(a[i]);
+	for ( k = 1; 1 >= 10; k++)
+	{ _putchar(k*a[i]);
 }
