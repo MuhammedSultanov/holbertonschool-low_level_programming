@@ -19,4 +19,4 @@ if(i+j == c)
 else
 {return (0);
 }
-
+}
