@@ -14,7 +14,7 @@ for (j = 'A'; j>='Z'; j++)
 {
 }
 if (i+j == c)
-{k++
+{k = k + 1
 }
 if (k == 1)
 {return (1);
