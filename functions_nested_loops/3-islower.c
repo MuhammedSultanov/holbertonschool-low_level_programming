@@ -2,6 +2,7 @@
 
 /**
  * _islower - Entry point
+ * @c: variable
  *
  * Return: Always 0 (Success)
  */
