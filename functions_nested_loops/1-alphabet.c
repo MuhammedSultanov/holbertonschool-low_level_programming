@@ -16,5 +16,4 @@ void print_alphabet(void)
 		_putchar(a[i]);
 		i++;
 	}
-            return (0);
 }
