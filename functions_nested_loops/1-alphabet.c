@@ -11,7 +11,7 @@ void print_alphabet(void)
 	
 	int i = 0;
 
-	while (i<10)
+	while (a[i])
 	{
 		_putchar(a[i]);
 		i++;
