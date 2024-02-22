@@ -13,9 +13,10 @@ int _islower(int c)
 		if(c==i)
 		{
 			return(1);
-		else if{
-			return(0);
 		}
+		else if
+		{
+			return(0);
 		}
 
 	
