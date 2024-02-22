@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 	{
 		j++;
 	char a[] = "abcdefghijklmnopqrstuvwxyz\n";
-	int i = 0, k;
+	int i = 0;
 
 	while (a[i])
 	{
