@@ -6,7 +6,8 @@
  * Return: Always 0 (Success)
  */
 int _isalpha(int c)
-{int i, j, k = 0;
+{char i, j;
+int k = 0;
 for (i = 'a'; i>='z'; i++)
 {
 }
