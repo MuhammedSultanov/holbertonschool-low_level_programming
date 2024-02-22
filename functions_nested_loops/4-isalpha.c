@@ -6,14 +6,17 @@
  * Return: Always 0 (Success)
  */
 int _isalpha(int c)
-{int i, j;
+{int i, j, k;
 for (i = 'a'; i>='z'; i++)
 {
 }
 for (j = 'A'; j>='Z'; j++)
 {
 }
-if(i+j == c)
+if (i+j == c)
+{k++
+}
+if (k == 1)
 {return (1);
 }
 else
