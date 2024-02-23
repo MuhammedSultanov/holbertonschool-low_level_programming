@@ -21,6 +21,7 @@ _putchar(j);
 _putchar(':');
 _putchar(o);
 _putchar(g);
+_putchar('\n');
 }
 }
 }
