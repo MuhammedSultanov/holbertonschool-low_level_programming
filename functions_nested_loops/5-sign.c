@@ -1,4 +1,4 @@
-#include "main.h"
+ implicit declaration of function ‘putchar’ [-Werror=implicit-function-declaration]#include "main.h"
 /**
  * print_sign - Entry point
  * @c: variable
@@ -19,7 +19,6 @@ return (0);
 }
 else
 {
-_putchar('-');
 _putchar(-1);
 }
 return (0); } 
