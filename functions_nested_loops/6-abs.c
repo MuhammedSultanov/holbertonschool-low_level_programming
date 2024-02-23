@@ -17,7 +17,7 @@ _putchar('0');
 }
 else if (n < 0)
 {
-n=0-n
+n=0-n;
 _putchar('n');
 }
 return (0);
