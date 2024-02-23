@@ -22,7 +22,7 @@ _putchar(':');
 _putchar(o + '0');
 _putchar(g + '0');
 if ((10 * i + j == 23) && (10 * o + g == 59))
-{
+{ return;
 }
 _putchar('\n');
 }
