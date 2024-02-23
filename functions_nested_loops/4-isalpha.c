@@ -21,10 +21,11 @@ int _isalpha(int c)
 			else
 			{
 				k = k + 1;
+			}
 		}
 	}
 	if (k == 1)
-	
+	{
 		return (1);
 	}
 	else
