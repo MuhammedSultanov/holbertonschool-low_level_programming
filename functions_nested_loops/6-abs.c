@@ -9,16 +9,16 @@ int _abs(int n)
 {
 if (n > 0)
 {
-_putchar(n);
+printf("%d\n", n);
 }
 else if (n == 0)
 {
-_putchar(0);
+printf("0\n");
 }
 else if (n < 0)
 {
 n=0 - n;
-_putchar(n);
+printf("%d\n", n);
 }
 return (0);
 }
