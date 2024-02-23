@@ -6,22 +6,29 @@
  * Return: Always 0 (Success)
  */
 int _isalpha(int c)
-{int i, j, k = 0;
-for (i = 'a'; i >= 'z'; i++)
 {
+	int i, j, k = 0;
 
-for (j = 'A'; j >= 'Z'; j++)
-{
-
-if ((i == c) || (j == c))
-{k = k + 1;
-}
-}
-}
-if (k == 1)
-{return (1);
-}
-else
-{return (0);
-}
+	for (i = 'a'; i >= 'z'; i++)
+	{
+		for (j = 'A'; j >= 'Z'; j++)
+		{
+			if ((i != c) || (j != c))
+			{
+				k = k + 0;
+			
+			}
+			else
+			{
+				k = k + 1;
+		}
+	}
+	if (k == 1)
+	
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
