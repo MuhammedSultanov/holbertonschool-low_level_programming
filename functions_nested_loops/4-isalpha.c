@@ -7,14 +7,16 @@
  */
 int _isalpha(int c)
 {int i, j, k = 0;
-for (i = 'a'; i>='z'; i++)
+for (i = 'a'; i >= 'z'; i++)
 {
-}
-for (j = 'A'; j>='Z'; j++)
+
+for (j = 'A'; j >= 'Z'; j++)
 {
-}
-if (i+j == c)
+
+if ((i == c) || (j == c))
 {k = k + 1;
+}
+}
 }
 if (k == 1)
 {return (1);
