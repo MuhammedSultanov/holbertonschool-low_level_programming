@@ -18,7 +18,7 @@ else if ( n == 0 )
 {
 putchar('0');
 putchar(',');
-putchae('\n');
+putchar('\n');
 return (0);
 }
 else
