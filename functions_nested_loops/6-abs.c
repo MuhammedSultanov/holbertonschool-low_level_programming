@@ -6,6 +6,7 @@
  * Return: Always 0 (Success)
  */
 int _abs(int n)
+int d;
 {
 if (n > 0)
 {
@@ -17,8 +18,8 @@ printf("0\n");
 }
 else if (n < 0)
 {
-n=0 - n;
-printf("%d\n", n);
+d = 0 - n;
+printf("%d\n", d);
 }
 return (0);
 }
