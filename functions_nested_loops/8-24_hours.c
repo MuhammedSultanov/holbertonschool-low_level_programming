@@ -16,11 +16,11 @@ for (o = 0;o <= 5;o++)
 {
 for (g = 0;g <= 9;g++)
 {
-_putchar(i);
-_putchar(j);
+_putchar(i + '0');
+_putchar(j + '0');
 _putchar(':');
-_putchar(o);
-_putchar(g);
+_putchar(o + '0');
+_putchar(g + '0');
 _putchar('\n');
 }
 }
