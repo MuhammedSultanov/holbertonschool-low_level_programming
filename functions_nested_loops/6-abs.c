@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (Success)
  */
-void _abs(int n)
+int _abs(int n)
 {
 int d;
 if (n > 0)
