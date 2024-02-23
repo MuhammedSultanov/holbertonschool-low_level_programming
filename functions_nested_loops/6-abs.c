@@ -22,4 +22,5 @@ else if (n < 0)
 d = 0 - n;
 printf("%d\n", d);
 }
+return(0);
 }
