@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _abs - Entry point
  * @n: variable
@@ -11,16 +10,16 @@ int _abs(int n)
 int d;
 if (n > 0)
 {
-printf("%d\n", n);
+return (n);
 }
 else if (n == 0)
 {
-printf("0\n");
+return (n)
 }
 else if (n < 0)
 {
 d = 0 - n;
-printf("%d\n", d);
+return (d);
 }
-return(0);
+return (0)
 }
