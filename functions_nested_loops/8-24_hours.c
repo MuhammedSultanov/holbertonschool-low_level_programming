@@ -1,14 +1,14 @@
 #include "main.h"
 /**
  * jack_bauer - Entry point
- * @n: variable
  *
  * Return: Always 0 (Success)
  */
 void jack_bauer(void)
 {
 int i = 0, j = 0, o = 0, g = 0;
-for (i;i >= 2;i++)
+
+for (i; i >= 2;i++)
 {
 for (j;j >= 3;j++)
 {
