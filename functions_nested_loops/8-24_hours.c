@@ -16,11 +16,16 @@ for (o = 0;o <= 5;o++)
 {
 for (g = 0;g <= 9;g++)
 {
+if ( j =! (5 || 6 || 7 || 8 }}9
 _putchar(i + '0');
 _putchar(j + '0');
 _putchar(':');
 _putchar(o + '0');
 _putchar(g + '0');
+if((10*i + j == 23) && (10*o + g == 59) )
+{
+return(0);
+}
 _putchar('\n');
 }
 }
