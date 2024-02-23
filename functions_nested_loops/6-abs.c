@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_sign - Entry point
+ * _abs - Entry point
  * @n: variable
  *
  * Return: Always 0 (Success)
@@ -8,6 +8,7 @@
 int _abs(int n)
 {
 int d;
+
 if (n > 0)
 {
 printf("%d\n", n);
