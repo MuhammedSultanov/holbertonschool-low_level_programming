@@ -11,17 +11,17 @@ int d;
 if (n > 0)
 {
 n = n % 10;
-return (n);
+_putchar('n');
 }
 else if (n == 0)
 {
-return (n);
+_putchar('n');
 }
 else if (n < 0)
 {
 d = 0 - n;
 d = d % 10;
-return (d);
+_putchar('d');
 }
 return (0);
 }
