@@ -7,29 +7,12 @@
  */
 int _isalpha(int c)
 {
-	int i, j, k = 0;
-
-	for (i = 'a'; i >= 'z'; i++)
-	{
-		for (j = 'A'; j >= 'Z'; j++)
-		{
-			if ((i != c) || (j != c))
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122)
 			{
-				k = k + 0;
-			
+			return (1);
 			}
 			else
 			{
-				k = k + 1;
+			return (0);
 			}
-		}
-	}
-	if (k == 1)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
 }
