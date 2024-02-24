@@ -9,7 +9,7 @@ int add(int n, int m)
 int v, l;
 v = n + m;
 l = (v % 10) + '0';
-int * returnVvar = l;
+int returnVvar = l;
 
 _putchar(v / 10 + '0');
 _putchar(v % 10 + '0');
