@@ -9,9 +9,9 @@ void times_table(void)
 {
     int i = 0, j = 0;
     
-    while(i<10)
+    while(i < 10)
     {
-        while(j<10)
+        while(j < 10)
         {
             if (i*j < 10)
             {
@@ -32,5 +32,5 @@ void times_table(void)
         _putchar('\n');
         i++;
         j = 0;
- i   }
+   }
 }
