@@ -12,6 +12,6 @@ v = n + m;
 
 _putchar(v/10 + '0');
 _putchar(v%10 + '0');
-return(0);
+return;
 }
 
