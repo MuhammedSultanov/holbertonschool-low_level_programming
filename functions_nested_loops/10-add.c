@@ -6,7 +6,8 @@
  */
 int add(int n, int m)
 {
-int v, l, returnVvar;
+int v, l,;
+char returnVvar;
 v = n + m;
 l = (v % 10) + '0';
 returnVvar = l;
