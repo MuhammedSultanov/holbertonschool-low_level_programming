@@ -17,21 +17,21 @@ int main(void)
 			{
 				for (m = 49; m <= 57; m++)
 				{
-					_putchar(i);
-					_putchar(j);
-					_putchar(' ');
-					_putchar(n);
-					_putchar(m);
+					putchar(i);
+					putchar(j);
+					putchar(' ');
+					putchar(n);
+					putchar(m);
 					if (i != 57 || j != 56 || n != 57 || m != 57)
 					{
-						_putchar(',');
-						_putchar(' ');
+						putchar(',');
+						putchar(' ');
 					}
 				}
 				m = 48;
 			}
 		}
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
