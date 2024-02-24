@@ -6,7 +6,8 @@
  * Return: Always 0 (Success)
  */
 int add(int n, int m)
-{int v;
+{
+int v;
 v = n + m;
 _putchar(v/10 + '0');
 _putchar(v%10 + '0');
