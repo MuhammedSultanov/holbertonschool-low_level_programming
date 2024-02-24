@@ -22,10 +22,10 @@ else
 _putchar((i * j) / 10 + '0');
 _putchar((i * j) % 10 + '0');
 }
-if(j != 9)
+if (j != 9)
 {
 _putchar(',');
-if(i * (j + 1) <= 9)
+if (i * (j + 1) <= 9)
 {
 _putchar(' ');
 _putchar(' ');
