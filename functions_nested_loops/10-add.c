@@ -10,8 +10,8 @@ int add(int n, int m)
 int v;
 v = n + m;
 
-_putchar(v/10 + '0');
-_putchar(v%10 + '0');
-return;
+_putchar(v / 10 + '0');
+_putchar(v % 10 + '0');
+return v % 10 + '0';
 }
 
