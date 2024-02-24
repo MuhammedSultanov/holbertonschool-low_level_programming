@@ -8,9 +8,11 @@
 int add(int n, int m)
 {
 int v;
+char k;i
 v = n + m;
+
 _putchar(v/10 + '0');
 _putchar(v%10 + '0');
-return;
+return(0);
 }
 
