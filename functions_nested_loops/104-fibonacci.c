@@ -7,7 +7,7 @@
 int main(void)
 {
 int i;
-unsigned long n1, n2, n1h1, n1h2, sum, n2h1, n2h2, n3, n4;
+unsigned long n1, n2, n1h1, n1h2, sum, n2h1, n2h2, h3, h4;
 n1 = 0;
 n2 = 1;
 for (i = 0; i < 92; i++)
