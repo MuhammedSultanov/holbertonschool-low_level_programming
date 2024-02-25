@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table - Entry point
+ * print_times_table - Entry point
  *
  * Return: Always 0 (Success)
  */
@@ -50,7 +50,7 @@ int i = 0, j = 0;
                         _putchar(' ');
                     }
                     
-                }j++:
+                }j++;
             }
             _putchar('\n');
             i++;
