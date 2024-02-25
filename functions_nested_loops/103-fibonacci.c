@@ -5,24 +5,22 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{int i;
-unsigned long a, b, c;
+{
+int a, b, c, i, d;
 a = 1;
 b = 1;
-for (i = 1; i < 32; i++)
+d = 0;
+for (i = 3; i < 34; i++)
 {
 c = a + b;
-if (i < 49)
+if ( c % 2 == 0)
 {
+d = d + c;
+}
 a = b;
 b = c;
 }
-if (c % 2 == 0)
-{
-c = c + c;
-}
-}
-printf("%lu", c);
+printf("%d", d);
 printf("\n");
 return (0);
 }
