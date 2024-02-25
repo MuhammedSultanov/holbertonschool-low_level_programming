@@ -13,7 +13,14 @@ printf("%lu, ", a);
 for (i = 1; i < 98; i++)
 {
 c = a + b;
-printf("%lu", c);
+if (c > 10000000000) 
+{
+printf("%lu%010lu", c / 10000000000, c % 10000000000);    
+}
+else
+{
+printf("%lu", c);    
+}
 if (i < 97)
 {
 printf(", ");
