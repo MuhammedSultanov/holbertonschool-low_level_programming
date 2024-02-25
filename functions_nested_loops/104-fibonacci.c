@@ -5,9 +5,6 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-#include <stdio.h>
-
-int main()
 {int i;
 unsigned long a, b, c;
 a = 1;
