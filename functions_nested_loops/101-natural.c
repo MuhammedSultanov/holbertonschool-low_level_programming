@@ -8,7 +8,6 @@
 int main() 
 {
     int i,c;
-    d = 0;
     c = 0;
     for (i = 0; i<1024; i++)
     {
