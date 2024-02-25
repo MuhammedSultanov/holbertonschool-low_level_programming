@@ -6,15 +6,20 @@
  */
 int main(void)
 {
-int a, b, c, i;
-a = 1;
-b = 1;
-for (i = 1; i<51; i++)
-{
-a = b;
-b = c;
-c = a + b;
-printf ("%d, ", c);
+    int a, b, c, i;
+    a = 1;
+    b = 1;
+    printf ("%d, ", a);
+    for (i = 3; i<50; i++)
+    {
+        c = a + b;
+        printf ("%d", c);
+        if (i < 49)
+        {
+            printf (", ");
+            a = b;
+            b = c;
+        }
+    }
+    printf ("\n");
 }
-printf ("\n");
-return(0); }
