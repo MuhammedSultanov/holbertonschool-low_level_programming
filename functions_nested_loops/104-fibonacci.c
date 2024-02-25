@@ -10,7 +10,7 @@ unsigned long a, b, c;
 a = 1;
 b = 1;
 printf("%lu, ", a);
-for (i = 1; i < 98; i++)
+for (i = 1; i < 99; i++)
 {
 c = a + b;
 if (c > 10000000000)
@@ -21,7 +21,7 @@ else
 {
 printf("%lu", c);
 }
-if (i < 97)
+if (i < 98)
 {
 printf(", ");
 a = b;
