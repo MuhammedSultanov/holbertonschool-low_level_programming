@@ -9,18 +9,18 @@ int main(void)
 unsigned long a, b, c;
 a = 1;
 b = 1;
-printf ("%lu, ", a);
-for (i = 1; i<50; i++)
+printf("%lu, ", a);
+for (i = 1; i < 50; i++)
 {
 c = a + b;
-printf ("%lu", c);
+printf("%lu", c);
 if (i < 49)
 {
-printf (", ");
+printf(", ");
 a = b;
 b = c;
 }
 }
-printf ("\n");
-return(0);
+printf("\n");
+return (0);
 }
