@@ -16,6 +16,6 @@ int main()
             c = c + i;
         }
     }
-    printf("%d",c);
+    printf("%d\n",c);
 return(0);
 }
