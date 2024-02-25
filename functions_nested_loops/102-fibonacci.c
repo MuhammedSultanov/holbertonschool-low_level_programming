@@ -6,14 +6,15 @@
  */
 int main(void)
 {
-    int a, b, c, i;
+    int i;
+    unsigned long a, b, c;
     a = 1;
     b = 1;
-    printf ("%d, ", a);
-    for (i = 3; i<50; i++)
+    printf ("%lu, ", a);
+    for (i = 1; i<50; i++)
     {
         c = a + b;
-        printf ("%d", c);
+        printf ("%lu", c);
         if (i < 49)
         {
             printf (", ");
@@ -22,5 +23,5 @@ int main(void)
         }
     }
     printf ("\n");
-return(0);
+    return(0);
 }
