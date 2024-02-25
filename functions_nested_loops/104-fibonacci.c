@@ -19,7 +19,7 @@ printf("%lu%010lu", c / 1000000000, c % 1000000000);
 }
 else
 {
-printf("%lu", c);    
+printf("%lu", c);
 }
 if (i < 97)
 {
