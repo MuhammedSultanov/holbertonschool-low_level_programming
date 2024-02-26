@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isupper - Entry point
+ * mul - Entry point
  * @a: variable1
  * @b: variable2
  *
