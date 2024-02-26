@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * print_numbers - Entry point
- * @c: variable
  *
  * Return: Always 0 (Success)
  */
