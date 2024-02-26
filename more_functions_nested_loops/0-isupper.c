@@ -1,7 +1,6 @@
 #include "main.h"
-
 /**
- * main - Entry point
+ * _isupper - Entry point
  * @c - var
  *
  * Return: Always 0 (Success)
