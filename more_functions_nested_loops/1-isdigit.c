@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _isupper - Entry point
+ * _isdigit - Entry point
  * @c: variable
  *
  * Return: Always 0 (Success)
  */
-int _isupper(int c)
+int int _isdigit(int c)
 {
 	if (c >= 48 && c <= 57)
 	{
