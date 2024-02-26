@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_line - Entry point
+ * @n: var
  *
  * Return: Always 0 (Success)
  */
