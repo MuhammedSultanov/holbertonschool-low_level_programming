@@ -8,7 +8,7 @@
  */
 int _isupper(int c)
 {
-	if (i >= 65 || i <= 90)
+	if (c >= 65 || c <= 90)
 	{
 		_putchar('c');
 		_putchar(':');
@@ -20,5 +20,6 @@ int _isupper(int c)
 		_putchar('c');
 		_putchar(':');
 		_putchar(' ');
+	}
 	return (0);
 }
