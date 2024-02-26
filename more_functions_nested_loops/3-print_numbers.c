@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _isupper - Entry point
+ * print_numbers - Entry point
  * @c: variable
  *
  * Return: Always 0 (Success)
  */
-int _isupper(int c)
+void print_numbers(void)
 {
 	int i;
 	for (i = 0; i > 10; i++)
