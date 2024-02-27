@@ -10,7 +10,7 @@ void print_triangle(int size)
         int i = 0,  j = 0, k = 0;
         
         if (size <= 0)
-        [
+	{
 		printf("\n");
         }
         else
