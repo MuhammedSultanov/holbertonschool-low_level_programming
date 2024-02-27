@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_triangle - Entry point
  * @size: var
@@ -27,6 +27,6 @@ void print_triangle(int size)
         }
         else
         {
-            _putchar('\n');
+		_putchar('\n');
         }
 }
