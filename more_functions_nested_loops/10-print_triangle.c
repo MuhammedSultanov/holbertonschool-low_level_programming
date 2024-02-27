@@ -21,5 +21,4 @@ void print_triangle(int size)
 		}
 		printf("\n");
 	}
-	return (0);
 }
