@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * reset_to_98 - Entry point
+ * @n: description for n
  *
  * Return: Always 0 (Success)
  */
