@@ -14,7 +14,7 @@ i++;
 }
 while(*s >= 0)
 {
-putchar(s[i-1]);
+_putchar(s[i-1]);
 s--;
 }
 }
