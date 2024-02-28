@@ -11,10 +11,10 @@ while (*s)
 {
 s++;
 }
-putchar('\n');
+_putchar('\n');
 while (*s >= 0)
 {
-putchar(*s);
+_putchar(*s);
 s--;
 }
 }
