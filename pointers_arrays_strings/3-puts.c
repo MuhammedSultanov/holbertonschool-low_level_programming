@@ -5,4 +5,11 @@
  *
  * Return: Always 0 (Success)
  */
-
+void _puts(char *str)
+{
+while (*str)
+{
+putchar(*str);
+*str++;
+}
+}
