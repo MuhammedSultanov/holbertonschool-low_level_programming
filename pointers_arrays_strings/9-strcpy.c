@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * reset_to_98 - check the code
- * @n: - input of function
+ * _strcpy - check the code
+ * @dest: - dest
+ * @src: - src
  *
  */
 char *_strcpy(char *dest, char *src)
