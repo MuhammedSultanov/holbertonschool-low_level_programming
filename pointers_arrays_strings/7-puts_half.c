@@ -16,9 +16,9 @@ if (len % 2 == 1)
 {
   len++;
 }
-for (a = len / 2; a < len; a++)
+for (a = len / 2; a < len - 1; a++)
 {
-_putchar(str[a]);
+putchar(str[a]);
 }
-_putchar('\n');
+putchar('\n');
 }
