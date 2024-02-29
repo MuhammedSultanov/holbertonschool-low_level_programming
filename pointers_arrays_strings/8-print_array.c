@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio>
+#include <studio>
 /**
  * print_array - Entry point
  * @n: description for n
