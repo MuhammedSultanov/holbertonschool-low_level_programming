@@ -15,5 +15,6 @@ len++;
 for (a = 0; a < len; a = a + 2)
 {
 _putchar(str[a]);
+_putchar('\n');
 }
 }
