@@ -14,6 +14,6 @@ len++;
 }
 for (a = len / 2; a < len; a++)
 {
-putchar(str[a]);
+_putchar(str[a]);
 }
 }
