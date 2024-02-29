@@ -7,7 +7,6 @@
  */
 void puts2(char *str)
 {
-char tmp;
 int a = 0, len = 0;
 while (*(str + len) != '\0')
 {
@@ -15,6 +14,6 @@ len++;
 }
 for (a = 0; a < len; a = a + 2)
 {
-putchar(str[a]);
+_putchar(str[a]);
 }
 }
