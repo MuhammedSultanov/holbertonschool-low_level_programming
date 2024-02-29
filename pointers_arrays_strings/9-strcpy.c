@@ -2,9 +2,8 @@
 /**
  * _strcpy - check the code
  * @dest: - dest
- * @_strcpy: -a
  * @src: - src
- *
+ * Return: Always 0
  */
 char *_strcpy(char *dest, char *src)
 {
