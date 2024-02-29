@@ -12,10 +12,10 @@ while (*(str + len) != '\0')
 {
 len++;
 }
-}
 if (len % 2 == 1)
 {
   len++;
+}
 for (a = len / 2; a < len; a++)
 {
 _putchar(str[a]);
