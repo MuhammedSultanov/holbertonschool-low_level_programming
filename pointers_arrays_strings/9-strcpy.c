@@ -2,6 +2,7 @@
 /**
  * _strcpy - check the code
  * @dest: - dest
+ * @_strcpy: -a
  * @src: - src
  *
  */
