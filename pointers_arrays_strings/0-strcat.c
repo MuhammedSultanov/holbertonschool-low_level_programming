@@ -3,22 +3,21 @@
  * _strcat - check the code
  * @dest: - input of function
  * @src: - src
- *
  */
 char *_strcat(char *dest, char *src)
 {
 int a = 0, b = 0, c = 0;
 
-while(dest[a] != '\0')
+while (dest[a] != '\0')
 {
-	a++;
+a++;
 }
-for(b = 0; src[b] != '\0'; b++)
+for (b = 0; src[b] != '\0'; b++)
 {
 }
-for(c = 0; c <= a; c++)
+for (c = 0; c <= a; c++)
 {
-    dest[b +2+ c] = src[c];
+dest[b + 2 + c] = src[c];
 }
-return(dest);
+return (dest);
 }
