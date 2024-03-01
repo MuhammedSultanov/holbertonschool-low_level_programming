@@ -3,6 +3,7 @@
  * _strcat - check the code
  * @dest: - input of function
  * @src: - src
+ * @n: - n
  * Return: Always 0.
  */
 char *_strncat(char *dest, char *src, int n)
