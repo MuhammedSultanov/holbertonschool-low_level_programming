@@ -3,6 +3,7 @@
  * _strcat - check the code
  * @dest: - input of function
  * @src: - src
+ * Return: Always 0.
  */
 char *_strcat(char *dest, char *src)
 {
