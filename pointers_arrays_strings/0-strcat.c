@@ -5,7 +5,6 @@
  * @src: - src
  *
  */
-{
 char *_strcat(char *dest, char *src)
 int a = 0, b = 0;
 
