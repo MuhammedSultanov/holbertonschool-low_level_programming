@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * _strcat - check the code
- * @dest: - input of function
- * @src: - src
+ * _atoi - check the code
+ * @s: - input of function
  * Return: Always 0.
  */
 int _atoi(char *s)
@@ -13,7 +12,7 @@ while (s[i] != '\0')
 {
 if (s[i] == 45)
 {
-sign = sing * -1;
+sign = sign * -1;
 }
 if (s[i] >= 48 && s[i] <= 57)
 {
