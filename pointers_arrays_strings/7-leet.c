@@ -4,6 +4,8 @@
  * @s: description for s
  * Return: Always 0 (Success)
  */
+char *leet(char *s)
+{
 int i = 0, j = 0;
 char num[] = "43071";
 char low[] = "aeotl";
