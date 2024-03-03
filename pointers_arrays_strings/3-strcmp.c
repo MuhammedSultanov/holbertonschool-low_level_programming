@@ -2,7 +2,7 @@
 /**
  * _strcmp - Entry point
  * @s1: description for s1
- * @s2; descrription  for s2
+ * @s2: descrription  for s2
  *
  * Return: Always 0 (Success)
  */
