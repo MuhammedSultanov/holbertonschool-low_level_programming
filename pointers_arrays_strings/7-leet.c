@@ -8,7 +8,7 @@ int i = 0, j = 0;
 char num[] = "43071";
 char low[] = "aeotl";
 char upp[] = "AEOTL";
-while ( s[i] != '\0')
+while (s[i] != '\0')
 {
 j = 0;
 while (low[j] != '\0')
