@@ -2,6 +2,7 @@
 /**
  * reverse_array - Entry point
  * @n: description for n
+ * @a: yeah right
  *
  * Return: Always 0 (Success)
  */
