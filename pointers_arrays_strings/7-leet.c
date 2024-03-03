@@ -4,30 +4,20 @@
  * @s: description for s
  * Return: Always 0 (Success)
  */
-char *leet(char *s)
+int i = 0, j = 0;
+char num[] = "43071";
+char low[] = "aeotl";
+char upp[] = "AEOTL";
+while ( s[i] != '\0')
 {
-int i = 0;
-while (*(s + i) != '\0')
+j = 0;
+while (low[j] != '\0')
 {
-if (*(s + i) == 97 || *(s + i) == 65)
+if (s[i] == low[j] || s[i] == upp[j])
 {
-s[i] = '4';
+s[i] = num[j];
 }
-if (*(s + i) == 101 || *(s + i) == 69)
-{
-s[i] = '3';
-}
-if (*(s + i) == 111 || *(s + i) == 79)
-{
-s[i] = '0';
-}
-if (*(s + i) == 116 || *(s + i) == 84)
-{
-s[i] = '7';
-}
-if (*(s + i) == 108 || *(s + i) == 76)
-{
-s[i] = '1';
+j++;
 }
 i++;
 }
