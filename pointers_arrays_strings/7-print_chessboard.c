@@ -1,9 +1,7 @@
 #include "main.h"
 /**
- * _memset - check the code
- * @s: - s
- * @b: - b
- * @n: - n
+ * print_chessboard - check the code
+ * @a: - a
  * Return: Always 0.
  */
 void print_chessboard(char (*a)[8])
