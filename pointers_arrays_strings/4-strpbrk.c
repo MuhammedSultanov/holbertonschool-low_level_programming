@@ -2,7 +2,7 @@
 /**
  * _strpbrk - check the code
  * @s: - s
- * @accept:
+ * @accept: - var
  * Return: Always 0.
  */
 char *_strpbrk(char *s, char *accept)
