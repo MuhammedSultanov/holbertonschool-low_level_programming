@@ -13,5 +13,9 @@ for (i = 0; i < size; i++)
 sum1 = sum1 + a[i * size + i];
 sum2 = sum2 + a[i * size + (size - 1 - i)];
 }
-printf("%d, %d\n", sum1, sum2);
+_putchar(sum1);
+_putchar(',');
+_putchar(' ');
+_putchar(sum2);
+_putchar('\n');
 }
