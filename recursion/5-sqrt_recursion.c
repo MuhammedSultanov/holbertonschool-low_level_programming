@@ -1,12 +1,10 @@
 #include "main.h"
 /**
- * sqrt_checker - finds square root 
+ * sqrt_checker - finds square root
  * @root: given number to find square root of it
  * @y: base case for recursion
- * Return: square 
+ * Return: square
  */
-
-
 int sqrt_checker(int root, int y)
 {
 if (y * y == root)
@@ -25,7 +23,7 @@ return (sqrt_checker(root, y + 1));
 
 /**
  * _sqrt_recursion - returns the natural square root of a number
- * @n: number 
+ * @n: number
  * Return: square root of given number
  */
 
