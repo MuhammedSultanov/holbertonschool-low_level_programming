@@ -19,7 +19,7 @@ return (-1);
 }
 else
 {
-return (sqrt_checker(x, root + 1));
+return (sqrt_checker(root, y + 1));
 }
 }
 
