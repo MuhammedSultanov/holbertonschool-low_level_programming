@@ -7,11 +7,15 @@
  *
  * Return: Always (0)
  */
-int main(int argc)
+int main(int argc, char *argv[])
 {
 int i = 0;
 for (i = 0; i < argc; i++)
 {}
-printf("%d\n", i);
+while (argv[len] != '\0')
+{
+len++
+}
+printf("%d\n", len);
 return (0);
 }
