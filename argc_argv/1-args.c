@@ -4,6 +4,7 @@
 /**
  * main - main function
  * @argc: argument count
+ * @argv: argument vektor
  *
  * Return: Always (0)
  */
