@@ -12,10 +12,10 @@ int main(int argc, char *argv[])
 int i = 0, len;
 for (i = 0; i < argc; i++)
 {}
-while (argv[len] != '\0')
+while (*argv)
 {
 len++;
 }
-printf("%d\n", len);
+printf("%d\n", len - 1);
 return (0);
 }
