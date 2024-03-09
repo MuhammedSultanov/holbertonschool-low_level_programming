@@ -10,24 +10,31 @@
  */
 int main(int argc, char *argv[])
 {
-int add = 0, i = 0, j;
+int add = 0, i = 0, j = 0;
 if (argc == 1)
 {
-return (0);
-}
-for (i; i < argc; i++)
-{
-for (j = 'a'; j <= 'z'; j++)
-{
-if (atoi(argv[i]) != j)
-{
-add += atoi(argv[i]);
+printf("0\n");
 }
 else
+{
+for (i = 0; i < argc; i++)
+{
+while (argv[i][j] != '\0')
+{
+if (argv[i][j] < '0' || argv[i][j] > '9')
 {
 printf("Error\n");
 return (1);
 }
+j++;
 }
+j = 0;
 }
+for (i = 1; i < argc; i++)
+{
+add += atoi(argv[i]);
+}
+printf("%d\n", add);
+}
+return (0);
 }
