@@ -9,13 +9,10 @@
  */
 int main(int argc, char *argv[])
 {
-int i = 0, len;
+int i = 0;
 for (i = 0; i < argc; i++)
 {}
-while (*argv)
-{
-len++;
-}
-printf("%d\n", len - 1);
+printf("%d\n", i);
 return (0);
+(void)argv;
 }
