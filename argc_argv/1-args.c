@@ -14,7 +14,7 @@ for (i = 0; i < argc; i++)
 {}
 while (argv[len] != '\0')
 {
-len++
+len++;
 }
 printf("%d\n", len);
 return (0);
