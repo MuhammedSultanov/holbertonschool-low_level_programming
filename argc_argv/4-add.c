@@ -17,7 +17,7 @@ printf("0\n");
 }
 else
 {
-for (i = 0; i < argc; i++)
+for (i = 1; i < argc; i++)
 {
 while (argv[i][j] != '\0')
 {
