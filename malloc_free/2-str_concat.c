@@ -9,6 +9,7 @@
  *
  * Return: Always 0
  */
+char *str_concat(char *s1, char *s2)
 {
 	int la = 0, lb = 0, i = 0, lc;
 	char *array;
