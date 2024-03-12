@@ -14,17 +14,13 @@ char *str_concat(char *s1, char *s2)
 	int la = 0, lb = 0, i = 0, lc;
 	char *array;
 
-	if (s1 == NULL && s2 == NULL)
+	if (s1 == NULL)
 	{
 		return (NULL);
 	}
-	if (s1 == NULL)
-	{
-		return (s2);
-	}
 	if (s2 == NULL)
 	{
-		return (s1);
+		return (NULL);
 	}
 	while (s1[la] != '\0')
 	{
