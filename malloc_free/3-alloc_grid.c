@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * alloc_grind - function for print 2d array
+ * alloc_grid - function for print 2d array
  *
  * @width: - width
  * @height: - height
@@ -11,7 +11,7 @@
  */
 int **alloc_grid(int width, int height)
 {
-	int **array, i = 0, j= 0;
+	int **array, i = 0, j = 0;
 
 	if (width <= 0 || height <= 0)
 	{
