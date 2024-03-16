@@ -26,7 +26,7 @@ ptr = malloc(total_size);
 if (ptr == NULL)
 return (NULL);
 
-*byte_ptr = *ptr;
+*byte_ptr = ptr;
 for (i = 0; i < total_size; ++i)
 {
 byte_ptr[i] = 0;
