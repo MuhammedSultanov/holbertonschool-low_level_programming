@@ -12,7 +12,7 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-unsigned int len1, len2, i = 0;
+unsigned int len1 = 0, len2 = 0, i = 0;
 char *strcon;
 if (s1 == NULL)
 {
@@ -36,15 +36,11 @@ return (NULL);
 
 while (*s1)
 {
-*strcon = *s1;
-strcon++;
-s1++;
+*strcon++ = *s1++;
 }
 while (i < len2)
 {
-*strcon = *s2;
-strcon++;
-s2++;
+*strcon++ = *s2++;
 i++;
 }
 *strcon = '\0';
