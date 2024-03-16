@@ -27,9 +27,9 @@ len1++;
 while (s2[len2] != '\0')
 len2++;
 
+if (n < len2)
+len2 = n;
 strcon = malloc((len1 + len2 + 1) * sizeof(char));
-if (n >= len2)
-return (s2);
 
 if (strcon == NULL)
 return (NULL);
