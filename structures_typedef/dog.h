@@ -1,6 +1,4 @@
 #include <atslib.h>
-#include <stdio.h>
-
 struct dog
 {
 	char *name;
