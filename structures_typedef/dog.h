@@ -1,4 +1,5 @@
 #include <atslib.h>
+
 /**
  * struct dog - creates dog struct
  * name: name of dog
