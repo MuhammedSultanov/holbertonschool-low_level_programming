@@ -3,9 +3,9 @@
 
 /**
  * struct dog - creates dog struct
- * name: name of dog
- * age: age of dog
- * owner: name of owner
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: name of owner
  *
  * Description: struct of dog table
  */
