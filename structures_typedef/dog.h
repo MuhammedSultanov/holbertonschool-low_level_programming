@@ -8,7 +8,7 @@
  * owner: name of owner
  *
  * Description: struct of dog table
- * */
+ */
 struct dog
 {
 	char *name;
