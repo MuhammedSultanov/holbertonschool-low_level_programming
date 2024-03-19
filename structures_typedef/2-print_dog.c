@@ -3,7 +3,7 @@
 #include "dog.h"
 
 /**
- * print_dogi - check the code
+ * print_dog - check the code
  * @d: pointer
  *
  * Return: Always 0.
