@@ -34,17 +34,19 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{
 		ndog->name[i] = name[i];
 	}
+	ndog->name[ln] = '\0';
 	ndog->age = age;
 	ndog->owner = malloc(lo * sizeof(char));
 	if (ndog->owner == NULL)
 	{
-		free(ndog);
 		free(ndog->name);
+		free(ndog);
 		return (NULL);
 	}
 	for (i = 0; i < lo; i++)
 	{
 		ndog->owner[i] = owner[i];
 	}
+	ndog->owner[lo] = '\0';
 	return (ndog);
 }
