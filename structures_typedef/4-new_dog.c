@@ -1,43 +1,50 @@
-#include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
 #include "dog.h"
-
 /**
- * new_dog - check the code
- * @name: name of dog
- * @age: age of dog
- * @owner: owner of dog
- *
- * Return: Always 0.
- */
+* new_dog - creates a new dog
+* @name: name of dog
+* @age: age of dog
+* @owner: owner of dog
+*
+* Return: pointer to new dog
+*/
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *ndog;
+	unsigned int nl, ol, i;
+	dog_t *d;
+
 	if (name == NULL || owner == NULL)
 		return (NULL);
+	d = malloc(sizeof(dog_t));
 
-	ndog = malloc(sizeof(dog_t));
-	if (ndog == NULL)
+	if (d == NULL)
 		return (NULL);
+	for (nl = 0; name[nl]; nl++)
+	;
+	nl++;
 
-	ndog->name = malloc(sizeof(char) * strlen(name) + 1);
-	if (ndog->name == NULL)
+	d->name = malloc(nl * sizeof(char));
+	if (d->name == NULL)
 	{
-		free(ndog);
+		free(d);
 		return (NULL);
 	}
-	strcpy(ndog->name, name);
-	ndog->age = age;
+	for (i = 0; i < nl; i++)
+		d->name[i] = name[i];
 
-	ndog->owner = malloc(sizeof(char) * strlen(owner) + 1);
+	d->age = age;
+	for (ol = 0; owner[ol]; ol++)
+	;
+	ol++;
 
-	if (ndog->owner == NULL)
+	d->owner = malloc(ol * sizeof(char));
+	if (d->owner == NULL)
 	{
-		free(ndog);
-		free(ndog->name);
+		free(d->name);
+		free(d);
 		return (NULL);
 	}
-	strcpy(ndog->owner, owner);
-	return (ndog);
+	for (i = 0; i < ol; i++)
+		d->owner[i] = owner[i];
+	return (d);
 }
