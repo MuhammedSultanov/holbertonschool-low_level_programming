@@ -28,7 +28,7 @@ printf("%c", va_arg(args, int));
 else if (c == 'i')
 {
 i = va_arg(args, int);
-printf("%d", i;
+printf("%d", i);
 }
 else if (c =='f')
 {
