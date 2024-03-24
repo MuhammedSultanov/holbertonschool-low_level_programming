@@ -1,19 +1,18 @@
 section .data
-    hello_msg db 'Hello, World' 0xA ; Message to print
+    hello db 'Hello, World', 0xA ; Print
 
 section .text
-    global _start
+    global main
 
-_start:
+main:
+    ; Write the string to stdout
+    mov rax, 1              ; The system call for sys_write
+    mov rdi, 1              ; File descriptor 1 is stdout
+    mov rsi, hello          ; Address of the string to output
+    mov rdx, 13             ; The number of bytes to write
+    syscall                 ; Invoke the kernel
 
-    mov rax, 1             ; syscall number for write
-    mov rdi, 1             ; file descriptor 1 (stdout)
-    mov rsi, hello_msg     ; address of the message
-    mov rdx, 13            ; length of the message
-
-    syscall		   ; Invoke the kernel
-
-    mov rax, 60            ; syscall number for exit
-    xor rdi, rdi           ; exit code 0
-    syscall
-
+    ; Exit the program
+    mov rax, 60             ; The system call for sys_exit
+    xor rdi, rdi            ; Return a code of 0
+    syscall                 ; Invoke the kernel
