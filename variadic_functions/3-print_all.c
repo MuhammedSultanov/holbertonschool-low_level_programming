@@ -8,7 +8,7 @@
  * @format: - a list of types of arguments passed to the function
  * Return: Always 0.
  */
-void print_all(const char * const format, ...);
+void print_all(const char * const format, ...)
 {
 va_list args;
 va_start(args, format);
