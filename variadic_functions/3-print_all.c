@@ -13,6 +13,9 @@ void print_all(const char * const format, ...)
 va_list args;
 va_start(args, format);
 
+char c;
+int i;
+float f;
 char *s;
 int index = 0;
 
@@ -24,11 +27,13 @@ printf("%c", va_arg(args, int));
 }
 else if (c == 'i')
 {
-printf("%d", va_arg(args, int));
+i = va_arg(args, int);
+printf("%d", i;
 }
 else if (c =='f')
 {
-printf("%f", va_arg(args, double));
+f = va_arg(args, double)
+printf("%f", f);
 }
 else if (c == 's')
 {
