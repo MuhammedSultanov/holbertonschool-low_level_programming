@@ -3,9 +3,9 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * print_dlistint - a function that prints all the elements of  list.
+ * dlistint_len - a function that returns the number of elements in a linked list
  * @h: pointer named head and this first node
- * Return: the number of nodes
+ * Return: the len of nodes
  */
 size_t dlistint_len(const dlistint_t *h)
 {
