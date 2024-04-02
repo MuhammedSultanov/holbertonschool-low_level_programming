@@ -11,12 +11,11 @@
 list_t *add_node_end(list_t **head, const char *str)
 {
 	int lens = 0;
-
-	for (lens = 0; str[lens] != '\0'; lens++)
-		;
 	list_t *new_node;
 	list_t *temp;
 
+	for (lens = 0; str[lens] != '\0'; lens++)
+		;
 	new_node = malloc(sizeof(list_t));
 	if (new_node == NULL)
 		return (NULL);
@@ -38,7 +37,6 @@ list_t *add_node_end(list_t **head, const char *str)
 	{
 		temp = temp->next;
 	}
-	temp->next = new_mode;
+	temp->next = new_node;
 	return (*head);
-	}
 }
