@@ -14,7 +14,6 @@ list_t *add_node(list_t **head, const char *str)
 
 	for (lens = 0; str[lens] != '\0'; lens++)
 		;
-	lens = lens - 1;
 	{
 		list_t *new_node;
 
