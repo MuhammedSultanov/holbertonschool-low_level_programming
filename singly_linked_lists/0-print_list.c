@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include "list_t.h"
+#include "lists.h"
 /**
  * print_list - a function that prints all the elements of a list_t list.
  * @h: header node of singly linked list
