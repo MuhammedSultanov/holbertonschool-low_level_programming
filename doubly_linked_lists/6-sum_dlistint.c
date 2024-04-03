@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * sum_dlistint - a function that returns the sum of all the data (n) of a linked list.
+ * sum_dlistint - the sum of all the data (n) of a linked list.
  * @head: pointer named head and this first node
  * Return: the sum of all data
  */
