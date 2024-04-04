@@ -21,18 +21,21 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	newnode->n = n;
 	while (temp != NULL)
 	{
-		if (c == idx - 1)
+		if (c == idx)
 		{
-			newnode->next = temp->next;
-			temp->next = newnode;
-			newnode->prev = temp;
-			if (newnode->next != NULL)
+			newnode->next = temp;
+			newnode->prev = temp->prev;
+			temp->prev = newnode;
+			if(newnode->prev != NULL)
 			{
-				newnode->next->prev = temp;
+				newnode->prev->next = newnode;
+				return (*h);
 			}
+			*h = newnode;
+			return (*h);
 		}
 		temp = temp->next;
 		c++;
 	}
-	return (temp);
+	return (*h);
 }
