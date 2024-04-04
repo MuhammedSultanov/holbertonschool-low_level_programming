@@ -3,10 +3,11 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * get_dnodeint_at_index -  returns the nth node of a dlistint_t linked list
+ * insert_dnodeint_at_index -  inserts a new node at a given position.
  * @head: pointer named head and this first node
- * @index: the index of the node, starting from 0
- * Return: the nth node of a linked list.
+ * @idx: the index of the node, starting from 0
+ * @n: value
+ * Return: insersts node at a given index
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
@@ -20,7 +21,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	newnode->n = n;
 	while (temp != NULL)
 	{
-		if (c == idx)
+		if (c == idx - 1)
 		{
 			newnode->next = temp->next;
 			temp->next = newnode;
