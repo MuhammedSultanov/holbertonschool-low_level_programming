@@ -8,7 +8,7 @@
  * @m: numer 2
  * Return: 1 if it worked
 */
-unsigned int flip_bits(unsigned long int n, unsigned long int m);
+unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	int count = 0, i;
 	unsigned long int xor = n ^ m;
