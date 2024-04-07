@@ -27,5 +27,7 @@ void print_binary(unsigned long int n)
 		}
 		biggest_binary = biggest_binary >> 1;
 	}
+	if (!firstbit)
+		_putchar('0');
 	_putchar('\n');
 }
