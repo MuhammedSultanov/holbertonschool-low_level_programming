@@ -29,5 +29,4 @@ void print_binary(unsigned long int n)
 	}
 	if (!firstbit)
 		_putchar('0');
-	_putchar('\n');
 }
